@@ -1,5 +1,7 @@
 Sed = Stream Editor
-$sed options [address]commands file(s)
+	
+	$sed options [address]commands file(s)
+	
 	* sed 's/text1/text2/' data.txt
 	* if file is not provided then sed that it's input from standard input
 	* reads one line of data and process it
